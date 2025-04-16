@@ -88,6 +88,6 @@ console.log("hi");
 })();
 
 const linkCSS = `
-    <link rel="stylesheet" href="../../assest/css/style.css">
+    <link rel="stylesheet" href="./assest/css/style.css">
 `;
 document.body.insertAdjacentHTML("afterbegin", linkCSS);
