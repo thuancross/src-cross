@@ -44,7 +44,7 @@ console.log("hi");
                 <ul>
                     <li><a href="#!">PRF192</a>
                         <ul>
-                            <li><a href="#!">Slot 1</a></li>
+                            <li><a target="_blank" href="https://youtu.be/JvjxLGX6ozA">Slot 1</a></li>
                             <li><a href="#!">Slot 2</a></li>
                             <li><a href="#!">Slot 3</a></li>
                             <li><a href="#!">Slot 4</a></li>

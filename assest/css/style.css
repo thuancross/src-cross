@@ -177,7 +177,6 @@ main.list-content {
 
 .list-content li a:active {
     color: blue;
-    font-size: 18px;
     transition: 0.1s;
 }
 
@@ -186,6 +185,9 @@ main.list-content {
     margin-top: 10px;
 }
 
+.list-content li a:link {
+    color: red;
+}
 
 /* ============================= */
 /* ========= CONTENT ========== */
