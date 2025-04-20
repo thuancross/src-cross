@@ -1,6 +1,15 @@
+/* ============================= */
+/* ========== HEADER ========== */
+/* ============================= */
+/* PHÔNG CHỮ */
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
 /* Định dạng header */
 .header {
-    background-color: #1e90ff; /* Màu xanh nước biển */
+    background-color: #1e90ff;
+    /* Màu xanh nước biển */
     padding: 15px;
     font-family: Arial, sans-serif;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
@@ -31,11 +40,16 @@
 }
 
 .header a:hover {
-    background-color: #4682b4; /* Màu xám dương khi hover */
+    background-color: #4682b4;
+    /* Màu xám dương khi hover */
     border-radius: 5px;
 }
 
-/* Menu cấp 2 */
+
+/* ============================= */
+/* ======= MENU CẤP 2 ========= */
+/* ============================= */
+
 .header li ul {
     display: none;
     position: absolute;
@@ -45,29 +59,34 @@
     min-width: 200px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     padding: 10px;
-    z-index: 1000; /* Đảm bảo menu cấp 2 luôn ở trên các phần tử khác */
+    z-index: 1000;
+    /* Đảm bảo menu cấp 2 luôn ở trên các phần tử khác */
 }
 
-/* Hiển thị menu cấp 2 khi hover */
-.header li:hover > ul {
+.header li:hover>ul {
     display: block;
 }
 
-/* Menu cấp 3 (di chuyển qua phải) */
-.header li > ul > li > ul {
+
+/* ============================= */
+/* ======= MENU CẤP 3 ========= */
+/* ============================= */
+
+.header li>ul>li>ul {
     display: none;
     position: absolute;
     top: 0;
-    left: 100%; /* Di chuyển menu qua phải */
+    left: 100%;
+    /* Di chuyển menu qua phải */
     background-color: #1e90ff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     min-width: 200px;
     padding: 10px;
-    z-index: 1001; /* Đảm bảo menu cấp 3 ở trên menu cấp 2 */
+    z-index: 1001;
+    /* Đảm bảo menu cấp 3 ở trên menu cấp 2 */
 }
 
-/* Hiển thị menu cấp 3 khi hover vào mục con */
-.header li > ul > li:hover > ul {
+.header li>ul>li:hover>ul {
     display: block;
 }
 
@@ -81,13 +100,16 @@
     color: white;
 }
 
-/* Đổi màu khi hover vào các mục con */
 .header li ul li a:hover {
     background-color: #4682b4;
     padding-left: 10px;
 }
 
-/* Responsive */
+
+/* ============================= */
+/* ======== RESPONSIVE ======== */
+/* ============================= */
+
 @media (max-width: 768px) {
     .header ul {
         flex-direction: column;
@@ -108,4 +130,133 @@
         padding: 10px 20px;
         font-size: 18px;
     }
+}
+
+
+/* ============================= */
+/* ======= HEADER TITLE ======= */
+/* ============================= */
+
+header h1 {
+    color: blue;
+    text-align: center;
+    font-size: 40px;
+}
+
+header h1:hover {
+    color: green;
+}
+
+
+/* ============================= */
+/* ======= LIST CONTENT ======= */
+/* ============================= */
+
+ul.list-content {
+    list-style: none;
+}
+
+.list-content li a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    font-size: 18px;
+    display: inline-block;
+    /* để transform hoạt động chuẩn */
+    transition: transform 0.2s ease;
+}
+
+.list-content li a:hover {
+    color: green;
+    transform: scale(1.2);
+}
+
+main.list-content {
+    margin-bottom: 10px;
+}
+
+.list-content li a:active {
+    color: blue;
+    font-size: 18px;
+    transition: 0.1s;
+}
+
+.list-content li {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+/* ============================= */
+/* ========= CONTENT ========== */
+/* ============================= */
+* {
+    margin-right: 10px;
+}
+
+.content h2 {
+    font-size: 30px;
+}
+
+
+h1:hover,
+h2:hover,
+h3:hover,
+h4:hover,
+h5:hover,
+h6:hover {
+    color: green;
+}
+
+h1:target,
+h2:target,
+h3:target,
+h4:target,
+h5:target,
+h6:target {
+    background-color: yellow;
+    padding: 2px 4px;
+    border-radius: 2px;
+}
+
+
+.content h3 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 25px;
+    margin-left: 40px;
+}
+
+
+.content h4 {
+    margin-left: 50px;
+}
+
+.content h5 {
+    margin-left: 60px;
+}
+
+strong {
+    display: inline-block;
+    color: blue;
+}
+
+strong:hover {
+    color: green;
+}
+
+/* ============================= */
+/* =========== BODY =========== */
+/* ============================= */
+
+body {
+    margin: 0;
+}
+
+.content {
+    margin-left: 20px;
+}
+
+.content p {
+    margin-left: 10px;
 }

@@ -1,5 +1,8 @@
 // Thêm favicon vào các trang
 const links = `
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="57x57" href="../../assest/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="../../assest/favicon/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="../../assest/favicon/apple-icon-72x72.png">
@@ -27,17 +30,17 @@ console.log("hi");
     const headerHTML = `
       <div class="header">
         <ul>
-            <li><a href="#!">Trang chủ</a></li>
+            <li><a href="index.html">Trang chủ</a></li>
             <li>
                 <a href="#!">Lịch học</a>
                 <ul>
-                    <li><a target="_blank" href="schedule-prf192.html">PRF192</a></li>
-                    <li><a target="_blank" href="schedule-pro192.html">PRO192</a></li>
-                    <li><a target="_blank" href="schedule-dbi202.html">DBI202</a></li>
+                    <li><a href="schedule-prf192.html">PRF192</a></li>
+                    <li><a href="schedule-pro192.html">PRO192</a></li>
+                    <li><a href="schedule-dbi202.html">DBI202</a></li>
                 </ul>
             </li>
             <li>
-                <a target="_blank" href="record-page.html">Record</a>
+                <a href="#!">Record</a>
                 <ul>
                     <li><a href="#!">PRF192</a>
                         <ul>
@@ -77,7 +80,7 @@ console.log("hi");
                 </ul>
             </li>
             <li>
-                <a target="_blank" href="login.html">Đăng nhập</a>
+                <a href="login.html">Đăng nhập</a>
             </li>
         </ul>
     </div>
