@@ -42,9 +42,9 @@ console.log("hi");
             <li>
                 <a href="#!">Record</a>
                 <ul>
-                    <li><a href="#!">PRF192</a>
+                    <li><a class="has-link" href="#!">PRF192</a>
                         <ul>
-                            <li><a target="_blank" href="https://youtu.be/JvjxLGX6ozA">Slot 1</a></li>
+                            <li><a class="has-link" target="_blank" href="https://youtu.be/JvjxLGX6ozA">Slot 1</a></li>
                             <li><a href="#!">Slot 2</a></li>
                             <li><a href="#!">Slot 3</a></li>
                             <li><a href="#!">Slot 4</a></li>

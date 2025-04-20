@@ -185,9 +185,7 @@ main.list-content {
     margin-top: 10px;
 }
 
-.list-content li a:link {
-    color: red;
-}
+
 
 /* ============================= */
 /* ========= CONTENT ========== */
@@ -261,4 +259,12 @@ body {
 
 .content p {
     margin-left: 10px;
+}
+
+/* ============================= */
+/* ======= LINK IN HEADER ====== */
+/* ============================= */
+
+.header a.has-link{
+    color: yellow;
 }
