@@ -45,7 +45,7 @@ console.log("hi");
                     <li><a class="has-link" href="#!">PRF192</a>
                         <ul>
                             <li><a class="has-link" target="_blank" href="https://youtu.be/JvjxLGX6ozA">Slot 1</a></li>
-                            <li><a href="#!">Slot 2</a></li>
+                            <li><a class="has-link" href="https://youtu.be/JK91YAhPGS4" target="_blank">Slot 2</a></li>
                             <li><a href="#!">Slot 3</a></li>
                             <li><a href="#!">Slot 4</a></li>
                             <li><a href="#!">Slot 5</a></li>
@@ -72,9 +72,9 @@ console.log("hi");
                 </ul>
             </li>
             <li>
-                <a href="https://drive.google.com/drive/folders/1vO8DlbflvlfEtLMJxv1ZnucQaYNCAAbM?usp=sharing">Tài liệu</a>
+                <a href="#!">Tài liệu</a>
                 <ul>
-                    <li><a href="#!">PRF192</a></li>
+                    <li><a class="has-link" target="_blank" href="https://drive.google.com/drive/folders/1vO8DlbflvlfEtLMJxv1ZnucQaYNCAAbM?usp=sharing">PRF192</a></li>
                     <li><a href="#!">PRO192</a></li>
                     <li><a href="#!">DBI202</a></li>
                 </ul>
