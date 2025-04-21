@@ -72,7 +72,7 @@ console.log("hi");
                 </ul>
             </li>
             <li>
-                <a href="#!">Tài liệu</a>
+                <a href="https://drive.google.com/drive/folders/1vO8DlbflvlfEtLMJxv1ZnucQaYNCAAbM?usp=sharing">Tài liệu</a>
                 <ul>
                     <li><a href="#!">PRF192</a></li>
                     <li><a href="#!">PRO192</a></li>
