@@ -45,8 +45,8 @@ console.log("hi");
                     <li><a class="has-link" href="#!">PRF192</a>
                         <ul>
                             <li><a class="has-link" target="_blank" href="https://youtu.be/JvjxLGX6ozA">Slot 1</a></li>
-                            <li><a class="has-link" href="https://youtu.be/JK91YAhPGS4" target="_blank">Slot 2</a></li>
-                            <li><a class="has-link" href="https://youtu.be/vQOur0x77eo">Slot 3</a></li>
+                            <li><a class="has-link" target="_blank" href="https://youtu.be/JK91YAhPGS4">Slot 2</a></li>
+                            <li><a class="has-link" target="_blank" href="https://youtu.be/vQOur0x77eo">Slot 3</a></li>
                             <li><a href="#!">Slot 4</a></li>
                             <li><a href="#!">Slot 5</a></li>
                         </ul>
@@ -106,3 +106,57 @@ const linkCSS = `
     <link rel="stylesheet" href="./assest/css/style.css">
 `;
 document.body.insertAdjacentHTML("afterbegin", linkCSS);
+
+const footer = `
+    <div class="footer">
+        <div class="logo-for-footer">
+            <div class="fb img-logo">
+                <div class="box">
+                    <a href="#!">
+                        <img class="footer-logo"
+                            src="https://static.vecteezy.com/system/resources/previews/018/930/481/original/facebook-logo-facebook-icon-transparent-free-png.png"
+                            alt="Logo Facebook">
+                    </a>
+                </div>
+                <a href="#!">
+            </div></a>
+            <div class="ig img-logo">
+                <div class="box">
+                    <a href="#!">
+                        <img class="footer-logo"
+                            src="https://cdn.pixabay.com/photo/2021/03/06/18/22/logo-6074368_1280.png" alt="Logo IG">
+                    </a>
+                </div>
+            </div>
+            <div class="gmail img-logo">
+                <div class="box">
+                    <a href="#!">
+                        <img class="footer-logo"
+                            src="https://png.pngtree.com/png-vector/20240611/ourmid/pngtree-gmail-inbox-logo-with-a-little-black-frame-vector-png-image_6995870.png"
+                            alt="Logo gmail">
+                    </a>
+                </div>
+            </div>
+            <div class="git img-logo">
+                <div class="box">
+                    <a href="#!">
+                        <img class="footer-logo"
+                            src="https://logos-world.net/wp-content/uploads/2020/11/GitHub-Symbol.png" alt="Github">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="content-for-footer">
+            <p><a href="#!">Trang chủ</a></p>
+            <p><a href="#!">About</a></p>
+            <p><a href="#!">Contact me</a></p>
+            <p><a href="#!">Đăng ký học</a></p>
+        </div>
+        <div class="coppy-right">
+            <p>© 2025 SRC CROSS. All rights reserved.</p>
+        </div>
+    </div>
+`;
+
+document.body.insertAdjacentHTML("beforeend", footer);
+

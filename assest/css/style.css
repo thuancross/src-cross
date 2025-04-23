@@ -1,8 +1,24 @@
+html {
+    margin-right: 0;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+  
 main {
     width: 800px;
     margin: 0 auto;
 }
-
+body {
+    margin: 0;
+    background-color: #dce6ee;
+}
 /* ============================= */
 /* ========== HEADER ========== */
 /* ============================= */
@@ -15,9 +31,11 @@ main {
 .header {
     background-color: #1e90ff;
     /* Màu xanh nước biển */
-    padding: 15px;
+    /* width: 100%; */
+    padding: 10px;
     font-family: Arial, sans-serif;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    margin: 0;
 }
 
 .header ul {
@@ -254,9 +272,6 @@ strong:hover {
 /* =========== BODY =========== */
 /* ============================= */
 
-body {
-    margin: 0;
-}
 
 .content {
     margin-left: 20px;
@@ -272,4 +287,64 @@ body {
 
 .header a.has-link{
     color: yellow;
+}
+
+
+/* FOOTER */
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+    background-color: #1E90FF;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+img.footer-logo {
+    width: 50px;
+    margin: 0;
+}
+
+.img-logo {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    align-items: center;
+    /* padding: 0 20px; */
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-for-footer {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    justify-content: space-around;
+    align-items: end;
+}
+
+.content-for-footer {
+    padding-top: 20px;
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+}
+
+.content-for-footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.coppy-right {
+    color: white;
+    font-size: small;
 }
