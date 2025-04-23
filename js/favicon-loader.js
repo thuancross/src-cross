@@ -35,8 +35,8 @@ console.log("hi");
                 <a href="#!">Phòng học</a>
                 <ul>
                     <li><a target="_blank" class="has-link" href="https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-join%2F19%3Ameeting_Zjg4OGM4ZjQtMDJjZC00NmU5LWIxNDItYmE1YjkwNzBjMTI4%40thread.v2%2F0%3Fcontext%3D%257b%2522Tid%2522%253a%2522447080b4-b9c6-4b0b-92fd-b543a68b4e97%2522%252c%2522Oid%2522%253a%2522eeaec1aa-871c-47f6-b925-4155ef07483a%2522%257d%26anon%3Dtrue&type=meetup-join&deeplinkId=ff4687e4-bee3-4951-b2fe-c8d77d468047&directDl=true&msLaunch=true&enableMobilePage=true&suppressPrompt=true">PRF192</a></li>
-                    <li><a href="#!">PRO192</a></li>
-                    <li><a href="#!">DBI202</a></li>
+                    <li><a target="_blank" href="https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-join%2F19%3Ameeting_Zjg4OGM4ZjQtMDJjZC00NmU5LWIxNDItYmE1YjkwNzBjMTI4%40thread.v2%2F0%3Fcontext%3D%257b%2522Tid%2522%253a%2522447080b4-b9c6-4b0b-92fd-b543a68b4e97%2522%252c%2522Oid%2522%253a%2522eeaec1aa-871c-47f6-b925-4155ef07483a%2522%257d%26anon%3Dtrue&type=meetup-join&deeplinkId=ff4687e4-bee3-4951-b2fe-c8d77d468047&directDl=true&msLaunch=true&enableMobilePage=true&suppressPrompt=true">PRO192</a></li>
+                    <li><a target="_blank" href="https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-join%2F19%3Ameeting_Zjg4OGM4ZjQtMDJjZC00NmU5LWIxNDItYmE1YjkwNzBjMTI4%40thread.v2%2F0%3Fcontext%3D%257b%2522Tid%2522%253a%2522447080b4-b9c6-4b0b-92fd-b543a68b4e97%2522%252c%2522Oid%2522%253a%2522eeaec1aa-871c-47f6-b925-4155ef07483a%2522%257d%26anon%3Dtrue&type=meetup-join&deeplinkId=ff4687e4-bee3-4951-b2fe-c8d77d468047&directDl=true&msLaunch=true&enableMobilePage=true&suppressPrompt=true">DBI202</a></li>
                 </ul>
             </li>
             <li>
@@ -69,6 +69,15 @@ console.log("hi");
                             <li><a href="#!">Slot 5</a></li>
                         </ul>
                     </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#!">Exam</a>
+                <ul>
+                <li><a class="has-link" href="#!">PRF192</a></li>
+                <li><a href="#!">PRO192</a></li>
+                <li><a href="#!">DBI202</a></li>
+
                 </ul>
             </li>
             <li>
