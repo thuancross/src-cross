@@ -82,6 +82,9 @@ console.log("hi");
             <li>
                 <a href="login.html">Đăng nhập</a>
             </li>
+            <li>
+                <a target="_blank" href="https://forms.gle/VetBD48oXpFq7H3dA">Đăng ký học</a>
+            </li>
         </ul>
     </div>
     `;
