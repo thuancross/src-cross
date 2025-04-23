@@ -46,7 +46,7 @@ console.log("hi");
                         <ul>
                             <li><a class="has-link" target="_blank" href="https://youtu.be/JvjxLGX6ozA">Slot 1</a></li>
                             <li><a class="has-link" href="https://youtu.be/JK91YAhPGS4" target="_blank">Slot 2</a></li>
-                            <li><a href="#!">Slot 3</a></li>
+                            <li><a class="has-link" href="https://youtu.be/vQOur0x77eo">Slot 3</a></li>
                             <li><a href="#!">Slot 4</a></li>
                             <li><a href="#!">Slot 5</a></li>
                         </ul>
