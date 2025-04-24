@@ -20,7 +20,7 @@ body {
     box-sizing: inherit;
 }
 
-main {
+main.content {
     width: 900px;
     margin: 0 auto;
 }
@@ -312,6 +312,7 @@ strong:hover {
     margin: 0;
     justify-content: center;
     align-items: center;
+    margin-top: auto;
 }
 
 img.footer-logo {
@@ -406,3 +407,23 @@ img.footer-logo.ig {
 .a-hover.img-logo:hover {
     box-shadow: 3px 2px 2px gray;
 }
+
+
+html,
+body {
+    height: 50vh; /*?????*/
+    margin: 0;
+}
+
+.wrapper {
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+main.content {
+    flex-grow: 1;
+}
+

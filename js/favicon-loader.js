@@ -32,15 +32,15 @@ console.log("hi");
         <ul>
             <li><a href="index.html">Trang chủ</a></li>
             <li>
-                <a href="#!">Phòng học</a>
+                <a href="#!" title="Link Teams để mọi người học với mình">Phòng học</a>
                 <ul>
                     <li><a target="_blank" class="has-link" href="https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-join%2F19%3Ameeting_Zjg4OGM4ZjQtMDJjZC00NmU5LWIxNDItYmE1YjkwNzBjMTI4%40thread.v2%2F0%3Fcontext%3D%257b%2522Tid%2522%253a%2522447080b4-b9c6-4b0b-92fd-b543a68b4e97%2522%252c%2522Oid%2522%253a%2522eeaec1aa-871c-47f6-b925-4155ef07483a%2522%257d%26anon%3Dtrue&type=meetup-join&deeplinkId=ff4687e4-bee3-4951-b2fe-c8d77d468047&directDl=true&msLaunch=true&enableMobilePage=true&suppressPrompt=true">PRF192</a></li>
-                    <li><a target="_blank" href="https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-join%2F19%3Ameeting_Zjg4OGM4ZjQtMDJjZC00NmU5LWIxNDItYmE1YjkwNzBjMTI4%40thread.v2%2F0%3Fcontext%3D%257b%2522Tid%2522%253a%2522447080b4-b9c6-4b0b-92fd-b543a68b4e97%2522%252c%2522Oid%2522%253a%2522eeaec1aa-871c-47f6-b925-4155ef07483a%2522%257d%26anon%3Dtrue&type=meetup-join&deeplinkId=ff4687e4-bee3-4951-b2fe-c8d77d468047&directDl=true&msLaunch=true&enableMobilePage=true&suppressPrompt=true">PRO192</a></li>
+                    <li><a target="_blank" class="has-link" href="https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-join%2F19%3Ameeting_Zjg4OGM4ZjQtMDJjZC00NmU5LWIxNDItYmE1YjkwNzBjMTI4%40thread.v2%2F0%3Fcontext%3D%257b%2522Tid%2522%253a%2522447080b4-b9c6-4b0b-92fd-b543a68b4e97%2522%252c%2522Oid%2522%253a%2522eeaec1aa-871c-47f6-b925-4155ef07483a%2522%257d%26anon%3Dtrue&type=meetup-join&deeplinkId=ff4687e4-bee3-4951-b2fe-c8d77d468047&directDl=true&msLaunch=true&enableMobilePage=true&suppressPrompt=true">PRO192</a></li>
                     <li><a target="_blank" href="https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-join%2F19%3Ameeting_Zjg4OGM4ZjQtMDJjZC00NmU5LWIxNDItYmE1YjkwNzBjMTI4%40thread.v2%2F0%3Fcontext%3D%257b%2522Tid%2522%253a%2522447080b4-b9c6-4b0b-92fd-b543a68b4e97%2522%252c%2522Oid%2522%253a%2522eeaec1aa-871c-47f6-b925-4155ef07483a%2522%257d%26anon%3Dtrue&type=meetup-join&deeplinkId=ff4687e4-bee3-4951-b2fe-c8d77d468047&directDl=true&msLaunch=true&enableMobilePage=true&suppressPrompt=true">DBI202</a></li>
                 </ul>
             </li>
             <li>
-                <a href="#!">Record</a>
+                <a href="#!" title="Mọi buổi học đều được record lại và up lên đây">Record</a>
                 <ul>
                     <li><a class="has-link" href="#!">PRF192</a>
                         <ul>
@@ -51,7 +51,7 @@ console.log("hi");
                             <li><a href="#!">Slot 5</a></li>
                         </ul>
                     </li>
-                    <li><a href="#!">PRO192</a>
+                    <li><a class="has-link" href="#!">PRO192</a>
                         <ul>
                             <li><a href="#!">Slot 1</a></li>
                             <li><a href="#!">Slot 2</a></li>
@@ -72,19 +72,19 @@ console.log("hi");
                 </ul>
             </li>
             <li>
-                <a href="#!">Exam</a>
+                <a href="#!" title="Bài kiểm tra sau mỗi slot học dành cho bạn">Exam</a>
                 <ul>
                 <li><a class="has-link" href="#!">PRF192</a></li>
-                <li><a href="#!">PRO192</a></li>
+                <li><a class="has-link" href="#!">PRO192</a></li>
                 <li><a href="#!">DBI202</a></li>
 
                 </ul>
             </li>
             <li>
-                <a href="#!">Tài liệu</a>
+                <a href="#!" title="Tất cả tài liệu khóa học nằm trên đây">Tài liệu</a>
                 <ul>
                     <li><a class="has-link" target="_blank" href="https://drive.google.com/drive/folders/1vO8DlbflvlfEtLMJxv1ZnucQaYNCAAbM?usp=sharing">PRF192</a></li>
-                    <li><a href="#!">PRO192</a></li>
+                    <li><a class="has-link" target="_blank" href="https://drive.google.com/drive/folders/1A8PFo4kGboEqpzzK6iyl8EsjzycYrauy?usp=sharing!">PRO192</a></li>
                     <li><a href="#!">DBI202</a></li>
                 </ul>
             </li>
@@ -99,7 +99,7 @@ console.log("hi");
     `;
 
     // 2. Chèn vào body đầu trang
-    document.body.insertAdjacentHTML("afterbegin", headerHTML);
+    document.querySelector(".wrapper").insertAdjacentHTML("afterbegin", headerHTML);
 })();
 
 const linkCSS = `
@@ -157,5 +157,5 @@ const footer = `
     </div>
 `;
 
-document.body.insertAdjacentHTML("beforeend", footer);
+document.querySelector(".wrapper").insertAdjacentHTML("beforeend", footer);
 
