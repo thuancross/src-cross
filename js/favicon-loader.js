@@ -108,49 +108,48 @@ const linkCSS = `
 document.body.insertAdjacentHTML("afterbegin", linkCSS);
 
 const footer = `
-    <div class="footer">
+<div class="footer">
         <div class="logo-for-footer">
-            <div class="fb img-logo">
-                <div class="box">
-                    <a href="#!">
+            <div class="a-hover fb img-logo">
+                <div class=" box-fb">
+                    <a target="_blank" href="https://www.facebook.com/congthuan0103">
                         <img class="footer-logo"
                             src="https://static.vecteezy.com/system/resources/previews/018/930/481/original/facebook-logo-facebook-icon-transparent-free-png.png"
                             alt="Logo Facebook">
                     </a>
                 </div>
-                <a href="#!">
-            </div></a>
-            <div class="ig img-logo">
-                <div class="box">
-                    <a href="#!">
-                        <img class="footer-logo"
-                            src="https://cdn.pixabay.com/photo/2021/03/06/18/22/logo-6074368_1280.png" alt="Logo IG">
+            </div>
+            <div class="a-hover ig img-logo">
+                <div class="box-ig">
+                    <a target="_blank" href="https://www.instagram.com/thuancross/">
+                        <img class="footer-logo ig"
+                            src="https://static.vecteezy.com/system/resources/previews/018/930/460/non_2x/instagram-logo-instagram-icon-transparent-free-png.png" alt="Logo IG">
                     </a>
                 </div>
             </div>
-            <div class="gmail img-logo">
-                <div class="box">
-                    <a href="#!">
+            <div class="a-hover gmail img-logo">
+                <div class="box-gmail">
+                    <a target="_blank" href="mailto:trancongthuan353@gmail.com">
                         <img class="footer-logo"
                             src="https://png.pngtree.com/png-vector/20240611/ourmid/pngtree-gmail-inbox-logo-with-a-little-black-frame-vector-png-image_6995870.png"
                             alt="Logo gmail">
                     </a>
                 </div>
             </div>
-            <div class="git img-logo">
-                <div class="box">
-                    <a href="#!">
-                        <img class="footer-logo"
-                            src="https://logos-world.net/wp-content/uploads/2020/11/GitHub-Symbol.png" alt="Github">
+            <div class="a-hover git img-logo">
+                <div class="box-git">
+                    <a target="_blank" href="https://github.com/thuancross">
+                        <img class="footer-logo git"
+                            src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="Github">
                     </a>
                 </div>
             </div>
         </div>
         <div class="content-for-footer">
-            <p><a href="#!">Trang chủ</a></p>
-            <p><a href="#!">About</a></p>
-            <p><a href="#!">Contact me</a></p>
-            <p><a href="#!">Đăng ký học</a></p>
+            <p><a class="a-hover a-footer" href="#">Trang chủ</a></p>
+            <p><a class="a-hover a-footer" href="#!">About</a></p>
+            <p><a class="a-hover a-footer" target="_blank" href="mailto:trancongthuan353@gmail.com?subject=[Liên hệ công việc] THƯ GỬ ĐÍCH LIÊN HỆ CÔNG VIỆC">Contact me</a></p>
+            <p><a class="a-hover a-footer" target="_blank" href="https://forms.gle/SKhic3vXNra3r7VH7">Đăng ký học</a></p>
         </div>
         <div class="coppy-right">
             <p>© 2025 SRC CROSS. All rights reserved.</p>
