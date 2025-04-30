@@ -406,7 +406,7 @@ main.content {
     width: 1100px;
     height: 100%;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 a.is-active {
@@ -476,6 +476,7 @@ div.namecourse p {
 
 p.odd-price {
     text-decoration: line-through;
+    color: #98A2B3;
 }
 
 div.price {
@@ -485,6 +486,7 @@ div.price {
 .current-price {
     font-weight: bolder;
     color: red;
+    font-size: larger;
 }
 
 img.c-course {
@@ -521,8 +523,34 @@ div.title {
 
 p.new {
     background-color: #1E90FF;
-    color: white;
+    color: yellow;
     padding: 5px 5px;
     border-radius: 10px;
     margin-left: 0;
+}
+
+/* ============================= */
+/* ======== c-course ======== */
+/* ============================= */
+/* CSS này dành riêng cho trang khóa học c */
+
+div.info-course {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+
+.information {
+    flex: 4;
+    background-color: #8caed0   ;
+}
+
+.video {
+    flex: 1;
+    background-color: beige;
+}
+
+img.c-course-page {
+    width: 100%;
+    border-radius: 10px;
 }
