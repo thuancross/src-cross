@@ -536,21 +536,160 @@ p.new {
 
 div.info-course {
     width: 100%;
-    background-color: rgb(255, 255, 255);
     display: flex;
 }
 
 .information {
-    flex: 4;
-    background-color: #8caed0   ;
+    flex: 2.5;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
 }
 
 .video {
-    flex: 1;
-    background-color: beige;
+    flex: 1.2;
 }
 
 img.c-course-page {
     width: 100%;
     border-radius: 10px;
+}
+
+
+.information *,
+.information p {
+    margin: 0;
+    margin-left: 20px;
+}
+
+.information h1,
+.information h2 {
+    padding: 20px 0;
+}
+
+.information h1 {
+    text-align: center;
+    margin-left: 0;
+    margin-top: 20px;
+}
+
+.information p {
+    padding: 5px 0;
+    margin-right: 20px;
+}
+
+.information h2 {
+    font-size: 23px;
+}
+
+/* content bạn sẽ làm được gì */
+.target-in-course,
+.col1,
+.col2 {
+    margin: 0;
+}
+
+.target-in-course {
+    display: flex;
+}
+
+.col1 {
+    flex: 1;
+}
+.col2 {
+    flex: 1;
+}
+
+ul.content-of-course {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+div.container-list {
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+div.content-of-course {
+    margin-left: 0;
+    background-color: #F5F5F5;
+    margin: 8px 0;
+    width: 90%;
+    padding: 10px 0;
+    border: 2px dashed #ada9a9;
+    border-radius: 10px;
+    transition: transform 0.4s ease;
+}
+
+div.content-of-course:hover {
+    transform: scale(1.02);
+}
+
+div.content-of-course p {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* video */
+div.video img {
+    display: block;
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 90%;
+    margin: 0;
+    margin-top: 20px;
+}
+
+div.video {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+/* price */
+p.price {
+    color: red;
+    font-weight: bolder;
+    font-size: 30px;
+    margin: 20px;
+    padding: 0;
+}
+
+p.apply-course {
+    background-color: #1e90ff;
+    color: white;
+    padding: 10px 25px;
+    font-weight: bold;
+    border-radius: 999px;
+    margin: 0;
+    margin-top: 5px;
+}
+
+a.apply-course {
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+p.apply-course:hover {
+    background-color: #4b9ff2;
+}
+
+p.short-hand {
+    font-size: small;
+}
+
+span.icon {
+    font-size: large;
 }
