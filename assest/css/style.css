@@ -635,6 +635,7 @@ div.content-of-course {
 
 div.content-of-course:hover {
     transform: scale(1.02);
+    box-shadow: 5px 2px 10px gray;
 }
 
 div.content-of-course p {
@@ -686,6 +687,7 @@ a.apply-course {
 
 p.apply-course:hover {
     background-color: #4b9ff2;
+
 }
 
 p.short-hand {
