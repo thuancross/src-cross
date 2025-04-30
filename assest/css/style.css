@@ -629,6 +629,8 @@ div.content-of-course {
     border: 2px dashed #ada9a9;
     border-radius: 10px;
     transition: transform 0.4s ease;
+    display: flex;
+    justify-content: space-between;
 }
 
 div.content-of-course:hover {
@@ -692,4 +694,13 @@ p.short-hand {
 
 span.icon {
     font-size: large;
+}
+
+strong {
+    margin-left: 0 !important;
+}
+
+p.lesson {
+    font-weight: normal !important;
+    font-style: italic;
 }
