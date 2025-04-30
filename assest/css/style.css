@@ -142,33 +142,6 @@ body {
 
 
 /* ============================= */
-/* ======== RESPONSIVE ======== */
-/* ============================= */
-
-@media (max-width: 768px) {
-    .header ul {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .header li ul {
-        position: static;
-        box-shadow: none;
-        min-width: 100%;
-    }
-
-    .header li ul li {
-        padding: 10px 15px;
-    }
-
-    .header li a {
-        padding: 10px 20px;
-        font-size: 18px;
-    }
-}
-
-
-/* ============================= */
 /* ======= HEADER TITLE ======= */
 /* ============================= */
 
@@ -482,7 +455,7 @@ div.intro {
     border-top-right-radius: 10px;
     margin: 0;
     background-color: rebeccapurple;
-    flex: 1.5;
+    flex: 1;
 }
 
 div.namecourse {
@@ -495,6 +468,10 @@ div.namecourse {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+div.namecourse p {
+    margin-top: 15px;
 }
 
 p.odd-price {
@@ -513,7 +490,8 @@ div.price {
 img.c-course {
     width: 100%;
     height: 100%;
-    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .course-title {
@@ -534,17 +512,6 @@ img.c-course {
     display: flex;
 }
 
-p.new {
-    display: flex;
-    background-color: #1E90FF;
-    padding: 5px 5px;
-    border-radius: 10px;
-    color: white;
-    font-size: small;
-    height: 20px;
-    align-items: center;
-    margin: 0;
-}
 
 div.title {
     display: flex;
@@ -552,77 +519,10 @@ div.title {
     align-items: center;
 }
 
-/* ============ FIX layout KHÔNG bị đè lên ============ */
-div.courses {
-    height: auto !important;
-    padding: 20px 0;
-  }
-  
-  .content-bot {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-  }
-  
-  main.content {
-    width: 100% !important;
-    padding: 0 15px;
-    box-sizing: border-box;
-  }
-  
-  /* ============ RESPONSIVE CHO MOBILE ============ */
-  @media (max-width: 768px) {
-    .content-bot {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .items {
-      width: 90% !important;
-      height: auto !important;
-      margin-bottom: 20px;
-      padding-bottom: 15px;
-    }
-  
-    .intro {
-      height: auto;
-    }
-  
-    main.content {
-      width: 100% !important;
-      padding: 0 10px;
-    }
-  
-    header h1 {
-      font-size: 28px;
-    }
-  
-    .logo-for-footer {
-      flex-wrap: wrap;
-      height: auto;
-      gap: 10px;
-      justify-content: center;
-    }
-  
-    .content-for-footer {
-      flex-direction: column;
-      align-items: center;
-      gap: 10px;
-    }
-  
-    .footer {
-      height: auto;
-      padding: 20px 10px;
-    }
-  }
-  
-  /* ============ HOVER EFFECT BOX KHÓA HỌC ============ */
-  .items {
-    transition: all 0.3s ease;
-  }
-  
-  .items:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  }
-  
+p.new {
+    background-color: #1E90FF;
+    color: white;
+    padding: 5px 5px;
+    border-radius: 10px;
+    margin-left: 0;
+}
