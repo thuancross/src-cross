@@ -149,6 +149,7 @@ header h1 {
     color: blue;
     text-align: center;
     font-size: 40px;
+    margin-bottom: 0;
 }
 
 header h1:hover {
@@ -418,11 +419,12 @@ a.is-active {
 /* ============================= */
 a.link-to-course {
     text-decoration: none;
+    height: 5px;
 }
 
 div.courses {
     display: flex;
-    height: 400px;
+    height: 410px;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -434,7 +436,7 @@ div.courses {
 
 div.items {
     width: 260px;
-    height: 270px;
+    height: 300px;
     background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
@@ -463,11 +465,12 @@ div.namecourse {
     border-bottom-right-radius: 10px;
     background-color: rgb(255, 255, 255);
     margin: 0;
-    flex: 1;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    display: flex;
+    width: 100%;
+    height: 130px;
 }
 
 div.namecourse p {
@@ -481,6 +484,7 @@ p.odd-price {
 
 div.price {
     display: flex;
+    height:48px;
 }
 
 .current-price {
@@ -498,32 +502,36 @@ img.c-course {
 
 .course-title {
     font-weight: bold;
-    margin: 0 auto;
-    margin-top: 10px;
+    max-width: 210px;
+    /* margin: 0 auto;
+    margin-top: 10px; */
 }
 
+
 .content-top {
-    flex: 1;
+    flex: 3;
     display: flex;
     width: 100%;
     justify-content: start;
+    align-items: center;
 }
 
 .content-bot {
-    flex: 4;
+    flex: 15;
     display: flex;
+    width: 100%;
 }
 
 
 div.title {
     display: flex;
-    height: 100%;
+    height: 50px;
     align-items: center;
 }
 
 p.new {
     background-color: #1E90FF;
-    color: yellow;
+    color: white;
     padding: 5px 5px;
     border-radius: 10px;
     margin-left: 0;
@@ -704,5 +712,43 @@ strong {
 
 p.lesson {
     font-weight: normal !important;
+    font-style: italic;
+}
+
+.start-course>p, .start-course {
+    padding: 0;
+    margin: 0;
+}
+
+.name-of-course p {
+    padding: 0;
+    margin: 0 !important;
+}
+.name-of-course {
+    flex: 5;
+    display: flex;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.price {
+    flex: 1;
+}
+.start-course p {
+    margin: 0 !important;
+}
+.start-course {
+    height: 100px;
+    flex: 1;
+}
+
+.title h2{
+    margin: 0;
+    margin-right: 10px;
+}
+
+p.start {
     font-style: italic;
 }
