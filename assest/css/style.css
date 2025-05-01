@@ -674,7 +674,7 @@ p.price {
     color: red;
     font-weight: bolder;
     font-size: 30px;
-    margin: 20px;
+    margin: 0;
     padding: 0;
 }
 
@@ -751,4 +751,5 @@ p.lesson {
 
 p.start {
     font-style: italic;
+    margin: 5px;
 }
