@@ -148,7 +148,7 @@ body {
 header h1 {
     color: blue;
     text-align: center;
-    font-size: 40px;
+    font-size: 25px;
     margin-bottom: 0;
 }
 
@@ -282,7 +282,7 @@ strong:hover {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 200px;
+    height: 230px;
     background-color: #1E90FF;
     margin: 0;
     justify-content: center;
@@ -372,6 +372,7 @@ img.footer-logo.ig {
 .coppy-right {
     color: white;
     font-size: small;
+    text-align: center;
 }
 
 .a-hover.a-footer:hover {
@@ -517,7 +518,7 @@ img.c-course {
 }
 
 .content-bot {
-    flex: 15;
+    flex: 10;
     display: flex;
     width: 100%;
 }
