@@ -425,7 +425,7 @@ a.link-to-course {
 
 div.courses {
     display: flex;
-    height: 410px;
+    height: 450px;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -437,7 +437,7 @@ div.courses {
 
 div.items {
     width: 260px;
-    height: 300px;
+    height: 320px;
     background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
@@ -470,6 +470,7 @@ div.namecourse {
     justify-content: center;
     align-items: center;
     display: flex;
+    flex: 1;
     width: 100%;
     height: 130px;
 }
@@ -485,7 +486,9 @@ p.odd-price {
 
 div.price {
     display: flex;
-    height:48px;
+    flex: 0.5;
+    align-items: center;
+    /* height: 48px; */
 }
 
 .current-price {
@@ -518,7 +521,7 @@ img.c-course {
 }
 
 .content-bot {
-    flex: 10;
+    flex: 20;
     display: flex;
     width: 100%;
 }
@@ -674,7 +677,7 @@ div.video {
 p.price {
     color: red;
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 25px;
     margin: 0;
     padding: 0;
 }
@@ -726,7 +729,7 @@ p.lesson {
     margin: 0 !important;
 }
 .name-of-course {
-    flex: 5;
+    flex: 0.8;
     display: flex;
     width: 100%;
     height: 500px;
@@ -740,9 +743,11 @@ p.lesson {
 .start-course p {
     margin: 0 !important;
 }
-.start-course {
+div .start-course {
     height: 100px;
-    flex: 1;
+    flex: 0.5;
+    display: flex;
+    align-items: center;
 }
 
 .title h2{
@@ -753,4 +758,51 @@ p.lesson {
 p.start {
     font-style: italic;
     margin: 5px;
+}
+
+
+div.note p{
+    margin: 0;
+    padding: 0;
+    font-size: small;
+    font-style: italic;
+    color: black;
+}
+
+div.note {
+    flex: 0.5;
+    display: flex;
+    align-items: center;
+}
+
+div.price p {
+    margin: 0;
+    margin: 0 10px;
+}
+
+/* Chỉnh lại price block 5 block 10 */
+div.price-course p {
+    margin: 0;
+    padding: 0;
+    margin: 0 10px;
+}
+.price-course {
+    display: flex;
+}
+
+.price-block-5, .price-block-10 {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p.note-price {
+    font-weight: bold;
+    color: blue;
+}
+
+div.price-block-10 {
+    border-left: 2px solid red;
 }
