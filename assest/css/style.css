@@ -425,7 +425,7 @@ a.link-to-course {
 
 div.courses {
     display: flex;
-    height: 450px;
+    height: 400px;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -521,7 +521,7 @@ img.c-course {
 }
 
 .content-bot {
-    flex: 20;
+    flex: 15;
     display: flex;
     width: 100%;
 }
